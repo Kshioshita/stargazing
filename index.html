@@ -1,0 +1,46 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Stargazing</title>
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <!-- uncomment lines below to include extra p5 libraries -->
+  <!--<script language="javascript" src="libraries/p5.dom.js"></script>-->
+  <!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <!-- this line removes any default padding and style. you might only need one of these values set. -->
+  <link href="https://fonts.googleapis.com/css?family=Butterfly+Kids" rel="stylesheet">
+
+  <style> 
+  	body{
+  		padding: 0; 
+  		margin: 0;
+  		font-family: 'Butterfly Kids', cursive;
+  		font-size: 2.75em;
+  		text-align: center;
+  		background-color: #0e2c5b;
+  	} 
+  	h1{
+  		margin-bottom: 0px;
+  		margin-top: 5px;
+  		color: #ffdd00;
+  	}
+
+  	.button{
+  		background-color: #1e1896;
+  		font-size: .3em;
+  		border-radius: 4px;
+  		padding: 5px;
+  		color: white;
+  		border: none;
+  	}
+  </style>
+</head>
+
+<body>
+	<header>
+		<h1>Stargazing</h1>
+		<input class="button" type="button" value="Generate Stars" onclick="reload()">
+		<input class="button" type="button" value="Reset Constellations" onclick="emptyline()">
+	</header>
+</body>
+</html>
